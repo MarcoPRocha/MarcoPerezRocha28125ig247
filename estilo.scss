@@ -1,0 +1,129 @@
+
+.nav{
+    float: right;
+    margin-top: 20px;
+}
+
+
+.iglesia{
+    float: left;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 50px;
+    
+}
+
+ul li:hover{
+    background-color: #00f2ff;
+}
+ul li a{
+    color:dimgrey;
+    font-size: 22px;
+    
+}
+main{
+    background-image: url(multimedia/water-g1826b9e1c_1280.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.container{
+    color: bisque;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px;
+    font-size: 250%;
+
+}
+p{
+    font-size: 50px;
+    color: black;
+}
+$color1: #6C63FF;
+$color2: #5A6170;
+$color3: #9DA6B8;
+$color4: #A9DFE2;
+$color5: #5C6898;
+$color6: orange;
+
+$size1: 200px;
+$size2: 300px;
+$size3: 700px;
+
+#primeraColumn{
+    background-color: $color1 !important;
+}
+
+#segundaColumn{
+    background-color: white;
+}
+$backg: second;
+
+#segundaColumn{
+    @if $backg == first {
+        background-color: $color4;
+    }
+
+    @else if $backg==second{
+        background-color: $color5;
+    }
+}
+
+#terceraColumn{
+    background-color: $color3;
+}
+.card-text{
+    color: black;
+}
+footer{
+    background-color: #DADFEA;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+@media (max-width: 575px) {
+    .container{
+        font-size: 25px;
+    }
+    .iglesia{
+        font-size: 20px
+    }
+    #nav1{
+        background-image: linear-gradient(to right, #F8A4D8, #6C63FF) !important;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 768px){
+    .container{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    
+}
+.spot{
+    background-color: black;
+    width: 100%;
+    height: $size2;
+    margin-right: 30px;
+    border-radius: 35px;
+    padding: 25px;
+
+    .spot__img{
+        width: 300px;
+        height: 180px;
+        margin-right: 30px;
+    }
+
+#jv{
+        color: #00f2ff;
+        font-size: 20px;
+        margin-left: 400px;
+    }
+}

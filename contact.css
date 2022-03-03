@@ -1,0 +1,49 @@
+body{
+    background-image: url(./multimedia/water-g1826b9e1c_1280.jpg);
+    background-size: cover;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  font-family: 'Short Stack', cursive;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: beige;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    background-color: #fff1d0;
+    border-radius: 15px;
+  }
+h2{
+    font-size: 30px;
+}
+h2:hover{
+    background-color: antiquewhite;
+    color: #01447e;
+    padding: 15px;
+    transition: .6s;
+}
+.contact{
+    margin-left: 250px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+@media (max-width: 575px){
+    .contact{
+        margin-left: auto;
+    }
+}

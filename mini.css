@@ -1,0 +1,106 @@
+
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #ecdcb0;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+font-family: 'Short Stack', cursive;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: beige;
+  text-decoration: none;
+  font-size: 30px;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  background-color: #fff1d0;
+  border-radius: 15px;
+}
+
+h2{
+    font-family: 'Short Stack', cursive;
+    padding: 15px;
+    
+
+}
+h2:hover{
+    background-color: #ffCAB1;
+    transition-duration: 1s;
+}
+
+
+.pdv{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    background-image: linear-gradient(to bottom left, #209EBB, #023047 );
+    
+}
+.contenedorPdv{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.pan{
+    width: 100%;
+    color: black;
+    font-size: 30px;
+}
+.pan:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    filter: blur(1);
+}
+
+.pan.pan1{
+    background-image: url(./multimedia/ministerios/pand1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: 1/4;
+    grid-column: 1/3;
+}
+.pan.pan2{
+    background-image: url(./multimedia/ministerios/pand2.jpg);
+    grid-row:3/6;
+    grid-column:2/6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.pan.pan4{
+    background-image: url(./multimedia/ministerios/pand4.jpg);
+    grid-row: 1/5;
+    grid-column:5/7;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pan.pan5{
+    background-image: url(./multimedia/ministerios/pand5.jpg);
+    grid-row: 5/8;
+    grid-column: 1/4;
+    background-size: cover;
+}
+p{
+  font-size: 30px;
+  color: beige;
+
+}
