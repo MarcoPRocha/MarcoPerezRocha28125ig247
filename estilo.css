@@ -25,7 +25,9 @@ main {
   background-image: url(multimedia/water-g1826b9e1c_1280.jpg);
   height: 100vh;
   width: 100%;
+  height: auto;
   background-size: cover;
+  flex-wrap: wrap;
 }
 
 .container {
@@ -36,6 +38,11 @@ main {
   font-size: 250%;
 }
 
+video{
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
 p {
   font-size: 50px;
   color: black;
